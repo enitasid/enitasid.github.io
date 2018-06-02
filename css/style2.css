@@ -3,12 +3,22 @@ body{
   font-size:16px;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-family:Poppins;
+h2,h3,h4,h5,h6{
+  font-family:Andale-Mono, monospace;
 }
 
+@font-face {
+        font-family: cocogoose;
+        src: url("../fonts/Cocogoose-Ultralight.ttf");
+}
+ 
+h1{
+	font-family: 'cocogoose';
+}
+
+
 p{
-  font-family:Roboto;
+  font-family:Andale-Mono, monospace;
 }
 
 .navbar-default{
@@ -45,7 +55,7 @@ p{
   margin-left:60px;
 }
 .features-left img{
-	margin-top:10%;
+	margin-top:5%;
 	width:50%;
 }
 .features-right {
@@ -134,3 +144,15 @@ p{
 footer{
   padding:30px;
 }
+.navbar-left {
+ position: absolute;
+  left: 20%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 30px;
+ 
+	}
